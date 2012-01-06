@@ -122,3 +122,6 @@ version is quantitatively identical to the original.
 
 10-2007: AD, better synaptic mechanisms using counters; added delta
 oscillations.
+20120106 updated mod files IT.mod IT2.mod cadecay.mod gabab.mod SOLVE 
+methods as suggested in web page
+http://www.neuron.yale.edu/phpbb/viewtopic.php?f=28&t=592

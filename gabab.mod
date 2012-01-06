@@ -143,7 +143,7 @@ INITIAL {
 }
 
 BREAKPOINT {
-	SOLVE bindkin METHOD euler
+	SOLVE bindkin METHOD cnexp
 	Gn = G^n
 	g = gmax * Gn / (Gn+KD)
 	i = g*(v - Erev)
