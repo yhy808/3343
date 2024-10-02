@@ -33,69 +33,63 @@ A postscript version of this paper, including figures, is available on
 internet at 
   http://cns.iaf.cnrs-gif.fr/Main.html
   
-  PROGRAMS
+PROGRAMS
   ========
-
- Fspin.oc	: spindle oscillations (short run)
+- Fspin.oc	: spindle oscillations (short run)
 			  see Fig. 7 of the paper
- FspinL.oc	: spindle oscillations (long run)
+- FspinL.oc	: spindle oscillations (long run)
 			  see Fig. 7 of the paper
- Fbic.oc	: bicuculline-induced oscillations (short run)
+- Fbic.oc	: bicuculline-induced oscillations (short run)
 			  see Fig. 8 of the paper
- FbicL.oc	: bicuculline-induced oscillations (long run)
+- FbicL.oc	: bicuculline-induced oscillations (long run)
 			  see Fig. 8 of the paper
- Fdelta.oc	: delta oscillations (short run)
- FdeltaL.oc	: delta oscillations (long run)
+- Fdelta.oc	: delta oscillations (short run)
+- FdeltaL.oc	: delta oscillations (long run)
 
 
 
-  MECHANISMS
+MECHANISMS
   ==========
-
- HH2.mod		: fast sodium spikes (Na and K currents)
- IT.mod			: T-current for TC cell
- IT2.mod		: T-current for RE cell (different kinetics and v-dep)
- Ih.mod			: h-current for TC cell, including upregulation
+- HH2.mod		: fast sodium spikes (Na and K currents)
+- IT.mod			: T-current for TC cell
+- IT2.mod		: T-current for RE cell (different kinetics and v-dep)
+- Ih.mod			: h-current for TC cell, including upregulation
 			  by intracellular calcium
- cadecay.mod		: intracellular calcium dynamics
- kleak.mod		: leak K+ current (TC cell)
+- cadecay.mod		: intracellular calcium dynamics
+- kleak.mod		: leak K+ current (TC cell)
 
- ampa.mod		: AMPA-mediated synaptic currents
- gabaa.mod		: GABA_A-mediated synaptic currents
- gabab.mod		: GABA_B-mediated synaptic currents
+- ampa.mod		: AMPA-mediated synaptic currents
+- gabaa.mod		: GABA_A-mediated synaptic currents
+- gabab.mod		: GABA_B-mediated synaptic currents
 
 
-  HOW TO RUN
+HOW TO RUN
   ==========
-
-Use autolaunch on modeldb or:
-
-unix platform:
-
-To compile the demo, NEURON and INTERVIEWS must be installed and working on
-the machine you are using.  Just type "nrnivmodl" to compile the mechanisms
+- Use autolaunch on modeldb or:
+- unix platform:
+  
+  To compile the demo, NEURON and INTERVIEWS must be installed and working on
+the machine you are using.  Just type ``` nrnivmodl ``` to compile the mechanisms
 given in the mod files.
 
-Then, execute the main demo program by typing:
-
-  nrngui mosinit.hoc
-
-mswin platform:
+  Then, execute the main demo program by typing: ``` nrngui mosinit.hoc ```
+- mswin platform:
 
   Compile the mechanism (mod) files by using mknrndll.  Then start the simulation
   by clicking on mosinit.hoc in windows explorer.
-
-back to any platform:
-
-Once the menu and graphics interface has appeared, select a simulation from the
+- back to any platform:
+  
+  Once the menu and graphics interface has appeared, select a simulation from the
 "Simulations of thalamic oscillations" window.  Then click on "Init and Run"
 button to start the simulation...
 
+\
 For more information about how to get NEURON and how to install it, please
 refer to the following sites:
   http://neuron.duke.edu/
   http://www.neuron.yale.edu/
 
+\
 For further information, please contact:
 
 Alain Destexhe
@@ -107,6 +101,7 @@ Centre National de la Recherche Scientifique (CNRS)
 Destexhe@iaf.cnrs-gif.fr
 http://cns.iaf.cnrs-gif.fr/Main.html
 
+\
 7/11/2005 Additional modifications to restart by first closing other simulation
 windows and also updating README contact information.
 
